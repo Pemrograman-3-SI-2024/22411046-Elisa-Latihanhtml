@@ -1,0 +1,53 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+.title1{
+    color: rgb(27, 27, 113);
+}
+
+.my-btn{
+    background-color: rgb(153, 255, 127);
+    border: none;
+    /*atas,kanan,bawah,kiri*/
+    padding: 0.7em 1.3em;
+    /* padding-top
+    padding-left */
+    border-radius: 20px;
+    color: rgb(1, 15, 15);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.outline-btn{
+    /* ukuran, tebeltipis, warna*/
+    border: 1px solid rgb(2, 2, 30);
+    padding: 0.7em 1.3em ;
+    border-radius: 20px;
+    background-color: #ffff
+    color rgb(18, 18, 19);
+}
+.outline-btn:hover{
+    background-color: rgb(43, 226, 141);
+    color: rgb(212, 125, 13);
+    font-size: 15px;
+}
+.my-table {
+    border: none;
+}
+.my-table td {
+    padding :1em;
+}
+.my-table tr:nth-child(even) {
+    background-color: #1db664;
+}
+.my-card {
+    width: 20em;
+    background-color: rgb(222, 237, 238);
+}
+.my-card .card-content.card-title{
+    padding: 1em 1em 0.1em;
+}
+.my-card .card-content .card-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(115, 228, 92);
+}
